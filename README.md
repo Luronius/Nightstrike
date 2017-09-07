@@ -1,1 +1,14 @@
-# OvG
+### Nightstrike: Malden Docks
+Nightstrike, also known as Operators vs Guards, or OvG for short, is a Player vs Player mission created within Arma 3. The mission pits two teams against each other in an objective-focused scenario, where the two teams greatly differ from each other in terms of skills, weapons and playstyles.
+
+The first team is that of the Guards, equipped with the task of defending two (or more) objective locations, they're armed with full-auto Protector SMG, equipped with a flashlight for visibility. Their arsenal also contains a grenade per player, as well as a few chemlights each. This is to help them further increase their visual range, allowing them to more easily see, or notice the Operators as they attempt to lurk in the shadows.
+
+This brings us to the second team, the Operators. Much lower in maximum numbers (two as opposed to the eight maximum the Guards can have, leaving a ratio of 4:1), they must rely on their wits, gadgets and the shadows to outplay and win this gamemode. Operators don't get the luxury of an SMG. Instead, they prefer the silence and precision of a suppressed pistol. Their gadgets however far exceed the technological levels of the Guards. One such device is the rechargable, and portable EMP Device.
+
+The EMP's settings, much like most of the mission's variables, can be defined by the host of the mission, but for this documentation, I'll refer to the default values. The EMP, when activated, causes lights up to 100 meters from the operator to flicker before going dark for 20 seconds. During this time, the Guards will experience five seconds of technical difficulties with their flashlights before regaining full control. Lights damaged prior and during an EMP will preserve their damaged states. Once the EMP is activated, it's battery will be completely drained will become unusable for another 50 seconds. With two operators however, I suggest increasing such recharge time, to account for complete and total blackout.
+
+That is not the only gadget the Operators have access to. They're also armed with a tripwire device, to deter any potential pursuers, and Night Vision Goggles, with Thermal functionality included to more easily allow them to see in the dark, especially during EMP blackouts. The darkness is their only ally in this fight.
+
+As stated earlier, there are two (by default) objective locations in this scenario, both of which identifiable by a laptop sitting atop a wooden box. It is the objective of the Operators to get close enough to said laptops to begin stealing information from the Guards. Once a total of 100% of data has been downloaded, the Operators win. If the Operators are elimiated however, the victory will go to the Guards. If the Guards are all killed before the objective is complete, the victory defaults to the Operators.
+
+That is the basic premise and design choices behind Nightstrike.

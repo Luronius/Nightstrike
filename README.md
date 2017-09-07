@@ -1,5 +1,5 @@
-### Nightstrike: Malden Docks
-Nightstrike, also known as Operators vs Guards, or OvG for short, is a Player vs Player mission created within Arma 3. The mission pits two teams against each other in an objective-focused scenario, where the two teams greatly differ from each other in terms of skills, weapons and playstyles.
+### Nightstrike: Operators vs Guards
+Nightstrike, also known as Operators vs Guards, or OvG for short, is a Player vs Player mission created within Arma 3, inspired by Splinter Cell's 'Spies vs Mercs.' The mission pits two teams against each other in an objective-focused scenario, where the two teams greatly differ from each other in terms of skills, weapons and playstyles.
 
 The first team is that of the Guards, equipped with the task of defending two (or more) objective locations, they're armed with full-auto Protector SMG, equipped with a flashlight for visibility. Their arsenal also contains a grenade per player, as well as a few chemlights each. This is to help them further increase their visual range, allowing them to more easily see, or notice the Operators as they attempt to lurk in the shadows.
 

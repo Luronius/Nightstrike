@@ -1,0 +1,163 @@
+onLoadIntro = "Nightstrike (Operators vs Guards)";
+author = "Luro";
+OnLoadName = "Nightstrike!";
+onLoadMission = "Gendarmerie are tasked with defending valuable intel from stealthy operators.";
+loadScreen = "nightstrike.jpg"
+overviewPicture = "nightstrike.jpg"
+briefingName = "Nightstrike (Operators vs Guards) [v2]";
+overviewText = "Gendarmerie are tasked with defending valuable intel from stealthy operators. <br/> Operators: <br/> - Silenced Pistol <br/> - Night Vision / Thermal Vision <br/> - Smoke Grenades <br/> - Rechargable EMP <br/> <br/> Guards: <br/> - Submachine Gun <br/> - Flashlight <br/> - Chemlights <br/> - RGO Grenade <br/> <br/> Enjoy and have fun!";
+
+saving = 0;
+AutoSpot=0;
+WeaponCursor=0;
+FriendlyTag=1;
+EnemyTag=0;
+
+class Params {
+
+	class Weather {
+		Title = "Weather Settings:";
+		Values[] = {0};
+		Texts[] = {" "};
+		Default = 0;
+	};
+	
+	class FogWeather {
+		Title  = "- Fog ON/OFF";
+		values[] = {1,0};
+		Texts[] = {"Enabled (Default)","Disabled"};
+		Default = 1;
+		isGlobal = 1;
+	};
+	
+	class CloudWeather {
+		Title = "- Overcast Intensity";
+		values[] = {0,5,10};
+		Texts[] = {"Clear","Moderately Overcast","Completely Overcast (Default)"};
+		Default = 10;
+		isGlobal = 1;
+	};
+	
+	class RainWeather {
+		Title = "- Rain Intensity";
+		values[] = {0,25,50,75,100};
+		Texts[] = {"Dry (0%)","Light Rain (25%, Default)","Moderate Rain (50%)","Heavy Rain (75%)","Intense Rain (100&)"};
+		Default = 25;
+		isGlobal = 1;
+	};
+		
+	
+	class Spacer1 {
+		Title = " ";
+		Values[] = {0};
+		Texts[] = {" "};
+		Default = 0;
+	};
+	
+	class GuardSettings {
+		Title = "Guard Settings:";
+		Values[] = {0};
+		Texts[] = {" "};
+		Default = 0;
+	};
+	
+	class GuardSpeed {
+		Title = "- Movement Speed Modifier";
+		values[] = {75,100};
+		Texts[] = {"75% (Default)","100% (Normal)"};
+		Default = 75;
+		isGlobal = 1;
+	};
+	
+	class GuardStamina {
+		Title = "- Stamina ON/OFF";
+		values[] = {0,1};
+		Texts[] = {"Disabled","Enabled (Default)"};
+		Default = 1;
+		isGlobal = 1;
+	};
+	
+	class GuardThirdPerson {
+		Title = "- Camera Settings";
+		Values[] = {0,1};
+		Texts[] = {"TPP Disabled (Default, unless Server set otherwise!)","TPP Enabled"};
+		Default = 0;
+		isGlobal = 1;
+	};
+	
+	class Spacer2 {
+		Title = " ";
+		Values[] = {0};
+		Texts[] = {" "};
+		Default = 0;
+	};
+
+	class OperatorSettings {
+		Title = "Operator Settings:";
+		Values[] = {0};
+		Texts[] = {" "};
+		Default = 0;
+	};
+	
+	class SyncedData {
+		Title = "- Linked Site Download Progress";
+		Values[] = {0,1,0,0};
+		Texts[] = {"Disabled ","Enabled (Default)"," ","If disabled, each site must reach 100%. If enabled, both sites add to an overall percentage."};
+		Default = 1;
+		isGlobal = 1;
+	};
+	
+	class DownloadSpeed {
+		Title = "- Download Speeds";
+		Values[] = {1,2,3,4,5};
+		Texts[] = {"1%/s","2%/s (Default)","3$/s","4%/s","5%/s"};
+		Default = 2;
+		isGlobal = 1;
+	};
+	
+	class OperatorThirdPerson {
+		Title = "- Camera Settings";
+		Values[] = {0,1};
+		Texts[] = {"TPP Disabled","TPP Enabled (Default, unless Server set otherwise!)"};
+		Default = 1;
+		isGlobal = 1;
+	};
+	
+	class Spacer3 {
+		Title = " ";
+		Values[] = {0};
+		Texts[] = {" "};
+		Default = 0;
+	};
+	
+	class EMPSettings {
+		Title = "EMP Settings:";
+		Values[] = {0};
+		Texts[] = {" "};
+		Default = 0;
+	};
+	
+	class RechargeTime {
+		title = "- Recharge Duration (Must be HIGHER than EMP Duration!)";
+		values[] = {30,40,50,60,90,120};
+		Texts[] = {"30 Seconds","40 Seconds","50 Seconds (Default)","60 Seconds","90 Seconds","120 Seconds"};
+		Default = 50;
+		isGlobal = 1;
+	};
+	
+	class EMPDuration {
+		title = "- Duration";
+		values[] = {5,10,20,30,40,50,60};
+		texts[] = {"5 Seconds","10 Seconds","20 Seconds (Default)","30 Seconds","40 Seconds","50 Seconds","60 Seconds"};
+		default = 20;
+		isGlobal = 1;
+	};
+	
+	class EMPRange {
+		Title = "- Range";
+		Values[] = {25,50,75,100,150,200,300};
+		Texts[] = {"25 Meters","50 Meters","75 Meters","100 Meters (Default)","150 Meters","200 Meters","300 Meters"};
+		default = 100;
+		isGlobal = 1;
+	};
+};
